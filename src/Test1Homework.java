@@ -1,6 +1,6 @@
 
 public class Test1Homework {
-	static int[] rateTable = {50,60,160,60,80,100,100,120,150,150,150,200,40,240,220,220,200,200,180,180,140,100,80,60};
+	public static int[] rateTable = {50,60,160,60,80,100,100,120,150,150,150,200,40,240,220,220,200,200,180,180,140,100,80,60};
 	
 	static int getChargingCost(int startHour, int chargeTime){
 		int res = 0;
@@ -9,7 +9,7 @@ public class Test1Homework {
 		return res;
 		
 	}
-	
+	//LOOK MOM, I ADDED A COMMENT
 	static int getChargeStartTime(int chargeTime){
 		int[] storage = new int [24];
 		for(int i = 0; i < rateTable.length;i++){
