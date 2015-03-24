@@ -30,10 +30,10 @@ public class Test1Homework {
 	
 	
 	public static void main(String[] args){
-		System.out.println("HI BRANDON!");
-		System.out.println(getChargingCost(23, 3));
-		System.out.println(2%24);
-		System.out.println(getChargeStartTime(5));
-		System.out.println(getChargingCost(getChargeStartTime(5),5));
+		//System.out.println("HI BRANDON!");
+		//System.out.println(getChargingCost(23, 3));
+		//System.out.println(2%24);
+		System.out.println(getChargeStartTime(3));
+		//System.out.println(getChargingCost(getChargeStartTime(5),5));
 	}
 }
