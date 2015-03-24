@@ -30,6 +30,7 @@ public class MasterOrder {
 				boxCount+=orders.get(index).getNumBoxes();
 				orders.remove(index);
 			}
+			index ++;
 		}
 		return boxCount;
 	}

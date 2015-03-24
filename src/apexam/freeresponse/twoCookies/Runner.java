@@ -31,7 +31,9 @@ public class Runner {
 		mo.addOrder(new CookieOrder("abc",2));
 		
 		//System.out.println(mo.getTotalBoxes());
-		System.out.println(mo.removeVariety("abc") + "done");
+		System.out.println(mo.getTotalBoxes());
+		System.out.println(mo.removeVariety("PIE"));
+		System.out.println(mo.getTotalBoxes());
 
 	}
 
