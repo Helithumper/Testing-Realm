@@ -24,13 +24,11 @@ public class MasterOrder {
 	
 	public int removeVariety (String cookieVar){
 		int boxCount = 0;
-		int index = 0;
-		while(index<orders.size()){
+		for(int index = 0; index < orders.size(); index++){
 			if(orders.get(index).getVariety().equals(cookieVar)){
 				boxCount+=orders.get(index).getNumBoxes();
 				orders.remove(index);
 			}
-			index ++;
 		}
 		return boxCount;
 	}
