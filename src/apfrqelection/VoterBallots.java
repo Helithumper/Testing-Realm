@@ -1,7 +1,6 @@
 package apfrqelection;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class VoterBallots {
 	private ArrayList<Ballot> ballotList = new ArrayList<Ballot>();
@@ -12,8 +11,8 @@ public class VoterBallots {
 
 	private int numFirstVotes(String candidate, ArrayList<String> candidateList) {
 		int numberofVotes = 0;
-		for (Ballot b : ballotList) {
-			if (b.firstChoiceFrom(candidateList) == candidate) {
+		for (Ballot ballot : ballotList) {
+			if (ballot.firstChoiceFrom(candidateList) == candidate) {
 				numberofVotes++;
 			}
 		}
